@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "waveclient",
+  "version": "${version}",
+  "name": "Wave Client",
+  "description": "A purple and blue client-side interface and fair-play HUD starter for Minecraft.",
+  "authors": ["Wave Client"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.waveclient.client.WaveClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
